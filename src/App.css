@@ -49,7 +49,7 @@ a {
     cursor: pointer;
 }
 
-.countries-container {
+.countriesContainer {
     max-width: 1200px;
     margin-top: 16px;
     display: flex;

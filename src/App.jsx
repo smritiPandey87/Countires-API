@@ -1,9 +1,11 @@
+import CountriesList from "../components/CountriesList";
 import CountryCard from "../components/CountryCard";
 import Header from "../components/Header";
 
 import SearchBar from "../components/SearchBar";
 import SelectMenu from "../components/SelectMenu";
 import "./App.css";
+import "./index.css";
 
 function App() {
   return (
@@ -15,7 +17,7 @@ function App() {
           <SelectMenu />
         </div>
       </main>
-      <CountryCard />
+      <CountriesList />
     </>
   );
 }
